@@ -1,3 +1,4 @@
-import { cancelAnOrderSchema, CancelAnOrder } from './orders/order/cancelOrderSchema';
+import { cancelAnOrderSchema } from './orders/order/cancelOrderSchema';
 
-export { cancelAnOrderSchema, CancelAnOrder };
+export { cancelAnOrderSchema };
+export default cancelAnOrderSchema;
